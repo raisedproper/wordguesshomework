@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Danny"s Word Guessing Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="game.js"></script>
+
+
+</head>
+  <body>
+              
+
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Danny's Guessing Game</h1>
+                  <p class="lead"><p>Hint: Words are Sports Related </p></p>
+                </div>
+             
+            <div class="hangman">
+                    <div class="guess"></div>
+                    <form class="guessForm">
+                    <input type="text" class="guessLetter" maxlength="1"  placeholder="Guess the Letter Here &#x23ce;"/> <button type="submit" class="guessButton">Guess</button>
+                    </form>  
+                    
+                    <div class="wrong">
+                    <div class="wrongLetters"></div>
+                    </div>
+                    <div class="message">
+                    <h1 class="title"></h1>
+                    <p class="text"></p>
+                    <button class="restart button">Play Again?</button>
+                    
+                    </div>
+                </div>
+              
+  
+        </div>
+
+  </body>
+</html>
